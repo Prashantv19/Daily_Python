@@ -1,5 +1,6 @@
 print("hello, World!")
 
+# this is single line comment
 """hello this is multiline comment"""
 
 #variables
@@ -10,7 +11,7 @@ print("My name is", name, "and I am", age, "years old. I have completed my", deg
 
 # Rules for naming variables
 #1. Variable names can only contain letters, numbers, and underscores, don't contains special characters.
-#2. Variable names must start with a letter or an underscore, can not start with a number and spaces.
+#2. Variable names must start with a letter or an underscore, can not start with a number and spaces also we can not use space in between letters.
 
 #Naming conventions
 #1. Camel Case: myVariableName
