@@ -14,4 +14,7 @@ print(a >= b) #greater than or equal to
 print(ord("a"))
 print(ord("A"))
 print("A" > "a")   #False,
-#yha ASCII values ko comapare karte hai.
+#yha string ki ASCII values ko comapare karte hai.
+print("ABC" > "abc") # letter ke precidence ke basis per check hota hai
+
+print("A" > 34) #You can not compare a String with an Integers

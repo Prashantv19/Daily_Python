@@ -3,7 +3,7 @@
 # age = 23
 # print (name, age)
 
-#fomated string = f"My name is {name} and I am {age} years old."
+#formated string = f"My name is {name} and I am {age} years old."
 
 # print(f"my name is {name} and I am {age} years old.")
 

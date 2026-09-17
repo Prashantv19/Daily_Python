@@ -35,6 +35,7 @@ b = 5
 # print("perimeter:", 2*(l+b))
 # print("square", l**b)
 
+#data types
 num = 25
 flo = 12.5
 com = 3 + 4j
@@ -107,3 +108,41 @@ boole = True
 # number = 98765
 # number = str(number) #pahle string me convert karna padega tab convert hoga.and
 # print(number[-1])
+
+# userInput1 = float(input("Enter number 1: "))
+# userInput2 = float(input("Enter number 2: "))
+# userInput3 = float(input("Enter number 3: "))
+
+# ava = (userInput1 + userInput2 + userInput3)/3
+# print("average:", ava)
+
+#temperature
+
+# C = float(input("Tem in C: "))
+# F = (C * 9/5) + 32
+# print(F)
+
+#Simple Interest
+
+# principle = 10000
+# rate = 5
+# time = 2
+
+# Si = (principle * rate * time)/100
+# print(Si)
+
+
+#Complex Numbers
+#Note: You can get the real part and imaginary part using .real and .imag.
+z = 3 + 4j
+print(type(z)) 
+print(z.imag)
+print(z.real)
+
+a = 3 + 2j
+b = 1 + 4j
+
+print(a + b)
+print(a - b)
+print(a * b)  #Since:j² = -1
+print(a / b)
